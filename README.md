@@ -1,0 +1,3 @@
+This repository demonstrates an uncommon error in MATLAB related to the handling of empty arrays. The `bug.m` file contains a function that might return an empty array under certain conditions. The `bugSolution.m` file shows how to correctly handle this situation to avoid unexpected behavior.  The core issue lies in how empty array assignments are managed within functions and how the calling code checks for the empty array condition.
+
+This example highlights the importance of explicitly checking for empty array results when using MATLAB functions and implementing robust error handling.
